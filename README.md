@@ -1,6 +1,6 @@
 # Advanced CSS, BEM methodology and SaaS
 
-This project is splitted in to 3 parts. I will make a recap what I learn in every chapter. :heart:
+This project is splitted into 3 parts. I will make a recap what I learn in every chapter. :heart:
 
 ## 1.Outdoors
 
@@ -16,4 +16,8 @@ This project is splitted in to 3 parts. I will make a recap what I learn in ever
 - <mark>background-clip</mark> property
 - how to use <mark>outline-offset</mark> and <mark>outline</mark> together
 - <mark>skew</mark> property
-- <mark>perspective</mark>, <mark>backface-visibility</mark> and <mark>box-decoration-break</mark>
+- <mark>perspective</mark>, <mark>backface-visibility</mark>,<mark>box-decoration-break</mark> and <mark>background-blend-mode</mark>;
+- text flow around shapes with <mark>shape-outside</mark> and <mark>flaot</mark>;
+- apply <mark>filter</mark>;
+- background video and using <mark>video</mark>;
+- how and when to use <mark>object-fit</mark>

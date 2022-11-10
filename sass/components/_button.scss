@@ -29,8 +29,22 @@
       &--white{
         background-color: $color-white;
         color:$color-grey-dark;
+
+        &::after{
+          background-color: $color-white;
+        }
       }
     
+      &--green{
+        background-color: $color-primary;
+        color:$color-white;
+
+        &::after{
+          background-color: $color-white;
+        }
+
+      }
+
       &::after{
         content:"";
         display:inline-block;
@@ -42,10 +56,6 @@
         left:0;
         z-index:-1;
         transition:all 0.4s;
-      }
-    
-      &--white::after{
-        background-color: $color-white;
       }
     
       &--animated{
@@ -69,12 +79,12 @@
   &:hover{
     background-color: $color-primary;
     color:$color-white;
-    box-shadow: 0 1rem 2rem rgba($color-dark,.15);
+    box-shadow: 0 1rem 2rem $box-shadow-1;
     transform: translateY(-2px);
   }
 
   &:active{
-    box-shadow: 0 1rem 2rem rgba($color-dark,.15);
+    box-shadow: 0 1rem 2rem $box-shadow-1;
     transform: translateY(0);
   }
 }
